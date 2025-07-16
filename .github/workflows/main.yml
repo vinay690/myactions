@@ -1,7 +1,7 @@
 name : Basic workflow steps
 
 on:
-  [push,pull]
+  push
 
 jobs:
   Job1:
