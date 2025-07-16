@@ -1,0 +1,18 @@
+name: shell
+
+on: [push, pull_request]
+
+jobs:
+  Running_different_shell_commands:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Linux
+        run: echo "Running on Linux shell"
+        shell: bash
+      - name: Windows
+        run: echo "Running on Windows shell"
+        shell: cmd
+      - name: macOS
+        run: echo "Running on macOS shell"
+        shell: zsh
+
