@@ -11,7 +11,7 @@ jobs:
         shell: bash
       - name: Windows
         run: echo "Running on Windows shell"
-        shell: cmd
+        shell: pwsh
       - name: macOS
         run: echo "Running on macOS shell"
         shell: zsh
